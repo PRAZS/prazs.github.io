@@ -35,7 +35,7 @@ function downloadPDF() {
   var fileName = "Resume.pdf";
   var mime = "application/pdf";
   var fileUrl= "https://prazs.github.io/#download";
-
+  
   try {
     var save = document.createElement.bind(document, "a")();
     save.download = fileName;
